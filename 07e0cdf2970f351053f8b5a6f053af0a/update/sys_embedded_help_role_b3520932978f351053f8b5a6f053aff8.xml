@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1129749_healthca.hc nurse" name="x_1129749_healthca.hc nurse">b3520932978f351053f8b5a6f053aff5</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-15 05:18:10</sys_created_on>
+        <sys_id>b3520932978f351053f8b5a6f053aff8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b3520932978f351053f8b5a6f053aff5</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_update_name>sys_embedded_help_role_b3520932978f351053f8b5a6f053aff8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-15 05:18:10</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
