@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>ChangingCallerField</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var callerName = g_form.getValue('u_caller_id');
+    if (callerName == '') {
+		g_form.addErrorMessage('Caller field was empty so it got populated automatically.');
+		var currentUser = g_user.userID;
+		g_form.setValue('u_caller_id',currentUser);
+    } else {
+        g_form.addInfoMessage('Caller is available.');
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 05:20:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4ddb7ba897933d1053f8b5a6f053af7b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ChangingCallerField</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_update_name>sys_script_client_4ddb7ba897933d1053f8b5a6f053af7b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 06:01:37</sys_updated_on>
+        <table>x_1129749_healthca_incident_management</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

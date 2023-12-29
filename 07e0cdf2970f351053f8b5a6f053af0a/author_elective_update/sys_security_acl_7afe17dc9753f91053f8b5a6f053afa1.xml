@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow write for all fields in x_1129749_healthca_incident_management, for users with roles (x_1129749_healthca.support team lead, x_1129749_healthca.it support manager), and if the ACL script returns true.</description>
+        <name>x_1129749_healthca_incident_management.*</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[if(gs.getProperty('x_1129749_healthca.options') == false){
+	answer = true;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 08:33:54</sys_created_on>
+        <sys_id>7afe17dc9753f91053f8b5a6f053afa1</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>x_1129749_healthca_incident_management.*</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_update_name>sys_security_acl_7afe17dc9753f91053f8b5a6f053afa1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 08:05:56</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sys_security_acl_7afe17dc9753f91053f8b5a6f053afa1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow write for all fields in x_1129749_healthca_incident_management, for users with roles (x_1129749_healthca.support team lead, x_1129749_healthca.it support manager), and if the ACL script returns true.&lt;/description&gt;&lt;name&gt;x_1129749_healthca_incident_management.*&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[if(gs.getProperty('x_1129749_healthca.options') == false){
+	answer = true;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-12-20 08:33:54&lt;/sys_created_on&gt;&lt;sys_id&gt;7afe17dc9753f91053f8b5a6f053afa1&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1129749_healthca_incident_management.*&lt;/sys_name&gt;&lt;sys_package display_value="HealthcareITSM" source="x_1129749_healthca"&gt;07e0cdf2970f351053f8b5a6f053af0a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="HealthcareITSM"&gt;07e0cdf2970f351053f8b5a6f053af0a&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_7afe17dc9753f91053f8b5a6f053afa1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-12-21 08:05:56&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>186333908</payload_hash>
+        <record_name>x_1129749_healthca_incident_management.*</record_name>
+        <reverted_from/>
+        <source>6be20dbe974f351053f8b5a6f053afb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 08:05:56</sys_created_on>
+        <sys_id>3b42a47097573d1053f8b5a6f053afbc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c8b68e5390000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 08:05:56</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>3342a47072573d10c33e21e7428c7cbc</update_guid>
+        <update_guid_history>3342a47072573d10c33e21e7428c7cbc:186333908,6dcb5cb807173d10c51960120b4287c7:-2127004301,1d1b9c7862173d107bd5f98a26e7df68:-143278142,ce9ad838a4173d10151945ac394ef8da:-2127004301,9e09d4f4b1173d10606150c1c6288d76:-143278142,3b1f5f9c1c53f9109b98f37585b679cd:1181998821</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 08:31:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>5f1607cc7b0d4d32ba6a4cd628f141a1</sys_id>
+        <sys_metadata>7afe17dc9753f91053f8b5a6f053afa1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129749_healthca_incident_management.*</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_parent display_value="x_1129749_healthca_incident_management">a443ed729703751053f8b5a6f053afb6</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_scope_delete display_value="">9aaa5b19ced442729e34a3d8156701a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_7afe17dc9753f91053f8b5a6f053afa1</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_7afe17dc9753f91053f8b5a6f053afa1">3b42a47097573d1053f8b5a6f053afbc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 08:31:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

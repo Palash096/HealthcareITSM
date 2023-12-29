@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description/>
+        <event_name>x_1129749_healthca.notifyEvent</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>notifyEvent</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-20 07:43:38</sys_created_on>
+        <sys_id>a373dbd09753f91053f8b5a6f053af94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129749_healthca.notifyEvent</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_update_name>sysevent_register_a373dbd09753f91053f8b5a6f053af94</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-20 07:43:38</sys_updated_on>
+        <table>x_1129749_healthca_incident_management</table>
+    </sysevent_register>
+</record_update>

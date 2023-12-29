@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="DELETE">
+        <choices/>
+        <description/>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1129749_healthca.options</name>
+        <read_roles>x_1129749_healthca.it specialist</read_roles>
+        <suffix>options</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 07:03:31</sys_created_on>
+        <sys_id>8f73dc7097173d1053f8b5a6f053af0c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1129749_healthca.options</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_update_name>sys_properties_8f73dc7097173d1053f8b5a6f053af0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 07:23:26</sys_updated_on>
+        <type>boolean</type>
+        <value>true</value>
+        <write_roles>x_1129749_healthca.it specialist</write_roles>
+    </sys_properties>
+    <sys_translated_text action="DELETE" query="documentkey=8f73dc7097173d1053f8b5a6f053af0c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sys_properties_8f73dc7097173d1053f8b5a6f053af0c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description/><ignore_cache>true</ignore_cache><is_private>false</is_private><name>x_1129749_healthca.options</name><read_roles>x_1129749_healthca.it specialist</read_roles><suffix>options</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-21 07:03:31</sys_created_on><sys_id>8f73dc7097173d1053f8b5a6f053af0c</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1129749_healthca.options</sys_name><sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package><sys_policy/><sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope><sys_update_name>sys_properties_8f73dc7097173d1053f8b5a6f053af0c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-21 07:23:26</sys_updated_on><type>boolean</type><value>true</value><write_roles>x_1129749_healthca.it specialist</write_roles></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=8f73dc7097173d1053f8b5a6f053af0c"/></record_update>]]></payload>
+        <payload_hash>-1385725322</payload_hash>
+        <record_name>x_1129749_healthca.options</record_name>
+        <reverted_from/>
+        <source>6be20dbe974f351053f8b5a6f053afb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 07:23:26</sys_created_on>
+        <sys_id>55981cb497173d1053f8b5a6f053afa3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18c8b41fc5f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 07:23:26</sys_updated_on>
+        <type>System Property</type>
+        <update_guid>5d981cb46e173d100e6126f9d9ee5da2</update_guid>
+        <update_guid_history>5d981cb46e173d100e6126f9d9ee5da2:-1385725322,61045c30e1173d1028248e9ca473db3a:918812230</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-21 07:40:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_properties">sys_properties</sys_db_object>
+        <sys_id>be17126e3152431cb47d42d7be1b0d09</sys_id>
+        <sys_metadata>8f73dc7097173d1053f8b5a6f053af0c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129749_healthca.options</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_scope_delete display_value="">9aaa5b19ced442729e34a3d8156701a4</sys_scope_delete>
+        <sys_update_name>sys_properties_8f73dc7097173d1053f8b5a6f053af0c</sys_update_name>
+        <sys_update_version display_value="sys_properties_8f73dc7097173d1053f8b5a6f053af0c">55981cb497173d1053f8b5a6f053afa3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-21 07:40:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

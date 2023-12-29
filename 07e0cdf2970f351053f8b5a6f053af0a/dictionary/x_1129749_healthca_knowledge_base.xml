@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bf3a697a9703751053f8b5a6f053afd4" extends="task" label="Knowledge Base" max_length="40" name="x_1129749_healthca_knowledge_base" type="collection">
+        <element label="Preventive Measures" max_length="100" name="preventive_measures" type="string"/>
+        <element label="Related Incident" max_length="32" name="related_incident" reference="x_1129749_healthca_incident_management" type="reference"/>
+    </element>
+</database>

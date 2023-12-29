@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>medical_device</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onChangeOfDevice</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	//Type appropriate comment here, and begin script below
+	var deviceName = g_form.getReference('medical_device',callback);
+	function callback(deviceName){
+// 		alert('Device Name : '+deviceName.device_name);
+		alert('Device Type : '+deviceName.device_type);
+
+		g_form.setValue('incident_category',deviceName.device_type);
+
+		var catValue = g_form.getValue('incident_category');
+		//alert("Category Value : "+catValue);
+
+		if (catValue == 'monitoring_equipment') {
+			g_form.addInfoMessage('test 1');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'device_malfunction', 'Device Malfunction');
+			g_form.addOption('subcategory', 'connection_issues', 'Connection Issues');
+			g_form.addOption('subcategory', 'alarm_notifications', 'Alarm Notifications');
+			g_form.addOption('subcategory', 'data_accuracy_concerns', 'Data Accuracy Concerns');
+		} else if (catValue == 'infusion_device') {
+			g_form.addInfoMessage('test 2');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'flow_rate_irregularities', 'Flow Rate Irregularities');
+			g_form.addOption('subcategory', 'occlusion_alarms', 'Occlusion Alarms');
+			g_form.addOption('subcategory', 'battery_or_power_issues', 'Battery or Power Issues');
+			g_form.addOption('subcategory', 'medication_administration_errors', 'Medication Administration Errors');
+		} else if (catValue == 'imaging_equipment') {
+			g_form.addInfoMessage('test 3');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'image_quality_issues', 'Image Quality Issues');
+			g_form.addOption('subcategory', 'radiation_exposure_concerns', 'Radiation Exposure Concerns');
+			g_form.addOption('subcategory', 'mechanical_failures', 'Mechanical Failures');
+			g_form.addOption('subcategory', 'software_errors', 'Software Errors');
+		} else if (catValue == 'cardiac_equipment') {
+			g_form.addInfoMessage('test 4');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'failure_to_deliver_shock', 'Failure to Deliver Shock');
+			g_form.addOption('subcategory', 'electrode_connection_problems', 'Electrode Connection Problems');
+			g_form.addOption('subcategory', 'battery_or_power_failures', 'Battery or Power Failures');
+			g_form.addOption('subcategory', 'inaccurate_ecg _readings', 'Inaccurate ECG Readings');
+		} else if (catValue == 'respiratory_equipment') {
+			g_form.addInfoMessage('test 5');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'ventilation_settings_issues', 'Ventilation Settings Issues');
+			g_form.addOption('subcategory', 'airflow_or_pressure_problems', 'Airflow or Pressure Problems');
+			g_form.addOption('subcategory', 'alarms_for_oxygen_levels', 'Alarms for Oxygen Levels');
+			g_form.addOption('subcategory', 'sudden_shutdowns', 'Sudden Shutdowns');
+		} else if (catValue == 'diagnostic_equipment') {
+			g_form.addInfoMessage('test 6');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'incorrect_readings', 'Incorrect Readings');
+			g_form.addOption('subcategory', 'calibration_problems', 'Calibration Problems');
+			g_form.addOption('subcategory', 'battery_issues', 'Battery Issues');
+			g_form.addOption('subcategory', 'user_interface_errors', 'User Interface Errors');
+		} else if (catValue == 'imaging_equipment') {
+			g_form.addInfoMessage('test 7');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'image_clarity_concerns', 'Image Clarity Concerns');
+			g_form.addOption('subcategory', 'probe_malfunctions', 'Probe Malfunctions');
+			g_form.addOption('subcategory', 'software_bugs', 'Software Bugs');
+			g_form.addOption('subcategory', 'scanning_or_malibration_issues', 'Scanning or Calibration Issues');
+		} else if (catValue == 'surgical_equipment') {
+			g_form.addInfoMessage('test 8');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'power_fluctuations', 'Power Fluctuations');
+			g_form.addOption('subcategory', 'beam_alignment_problems', 'Beam Alignment Problems');
+			g_form.addOption('subcategory', 'cooling_system_failures', 'Cooling System Failures');
+			g_form.addOption('subcategory', 'safety_interlock_issues', 'Safety Interlock Issues');
+		} else if (catValue == 'hit') {
+			g_form.addInfoMessage('test 9');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'login_or_access_issues', 'Login or Access Issues');
+			g_form.addOption('subcategory', 'data_entry_errors', 'Data Entry Errors');
+			g_form.addOption('subcategory', 'system_downtime', 'System Downtime');
+			g_form.addOption('subcategory', 'integration_problems_with_other_systems', 'Integration Problems with Other Systems');
+		} else if (catValue == 'mobility_aids') {
+			g_form.addInfoMessage('test 10');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'joystick_or_control_malfunctions', 'Joystick or Control Malfunctions');
+			g_form.addOption('subcategory', 'Battery or Charging Issues', 'Battery or Charging Issues');
+			g_form.addOption('subcategory', 'brake_failures', 'Brake Failures');
+			g_form.addOption('subcategory', 'structural_problems', 'Structural Problems');
+		} else if (catValue == 'it_equipment') {
+			g_form.addInfoMessage('test 11');
+			g_form.clearOptions('subcategory');
+			g_form.addOption('subcategory', 'none', '-----None-----');
+			g_form.addOption('subcategory', 'hardware_malfunction', 'Hardware Malfunction');
+			g_form.addOption('subcategory', 'software_issues', 'Software Issues');
+			g_form.addOption('subcategory', 'connection_problems', 'Connection Problems');
+			g_form.addOption('subcategory', 'battery_or_power_issues', 'Battery or Power Issues');
+		} else {
+			g_form.clearOptions('subcategory');
+		}
+
+
+
+	}
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-18 13:28:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>841f06bf978f391053f8b5a6f053afce</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>onChangeOfDevice</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_update_name>sys_script_client_841f06bf978f391053f8b5a6f053afce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-19 07:29:01</sys_updated_on>
+        <table>x_1129749_healthca_incident_management</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

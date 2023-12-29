@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override">
+    <sys_dictionary_override action="DELETE">
+        <attributes/>
+        <attributes_override>false</attributes_override>
+        <base_table>task</base_table>
+        <calculation/>
+        <calculation_override>false</calculation_override>
+        <default_value/>
+        <default_value_override>false</default_value_override>
+        <dependent/>
+        <dependent_override>false</dependent_override>
+        <display_override>true</display_override>
+        <element>priority</element>
+        <mandatory>false</mandatory>
+        <mandatory_override>false</mandatory_override>
+        <name>x_1129749_healthca_incident_management_2</name>
+        <read_only>false</read_only>
+        <read_only_override>false</read_only_override>
+        <reference_qual/>
+        <reference_qual_override>false</reference_qual_override>
+        <sys_class_name>sys_dictionary_override</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 09:09:51</sys_created_on>
+        <sys_id>f85ae762979bf15053f8b5a6f053afff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>priority</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_update_name>sys_dictionary_override_f85ae762979bf15053f8b5a6f053afff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 09:09:51</sys_updated_on>
+    </sys_dictionary_override>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</application>
+        <file_path/>
+        <instance_id>ad7ecc92dbe92518c9912f17d4961906</instance_id>
+        <instance_name>dev164351</instance_name>
+        <name>sys_dictionary_override_f85ae762979bf15053f8b5a6f053afff</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_dictionary_override"><sys_dictionary_override action="INSERT_OR_UPDATE"><attributes/><attributes_override>false</attributes_override><base_table>task</base_table><calculation/><calculation_override>false</calculation_override><default_value/><default_value_override>false</default_value_override><dependent/><dependent_override>false</dependent_override><display_override>true</display_override><element>priority</element><mandatory>false</mandatory><mandatory_override>false</mandatory_override><name>x_1129749_healthca_incident_management_2</name><read_only>false</read_only><read_only_override>false</read_only_override><reference_qual/><reference_qual_override>false</reference_qual_override><sys_class_name>sys_dictionary_override</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-12-27 09:09:51</sys_created_on><sys_id>f85ae762979bf15053f8b5a6f053afff</sys_id><sys_mod_count>0</sys_mod_count><sys_name>priority</sys_name><sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package><sys_policy/><sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope><sys_update_name>sys_dictionary_override_f85ae762979bf15053f8b5a6f053afff</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-12-27 09:09:51</sys_updated_on></sys_dictionary_override></record_update>]]></payload>
+        <payload_hash>-784229825</payload_hash>
+        <record_name>priority</record_name>
+        <reverted_from/>
+        <source>6be20dbe974f351053f8b5a6f053afb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 09:09:51</sys_created_on>
+        <sys_id>5a7a2762979bf15053f8b5a6f053afd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18caa898f5a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 09:09:51</sys_updated_on>
+        <type>Dictionary Entry Override</type>
+        <update_guid>927a27629a9bf1504a91ba21f23d8ad1</update_guid>
+        <update_guid_history>927a27629a9bf1504a91ba21f23d8ad1:-784229825</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-27 09:20:11</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary_override">sys_dictionary_override</sys_db_object>
+        <sys_id>337c2046b14d4867a1fdbf292e399681</sys_id>
+        <sys_metadata>f85ae762979bf15053f8b5a6f053afff</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>priority</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_parent display_value="Medical Device">234f7fad979ffd1053f8b5a6f053afba</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_scope_delete display_value="">9aaa5b19ced442729e34a3d8156701a4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_override_f85ae762979bf15053f8b5a6f053afff</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_override_f85ae762979bf15053f8b5a6f053afff">5a7a2762979bf15053f8b5a6f053afd1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-27 09:20:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

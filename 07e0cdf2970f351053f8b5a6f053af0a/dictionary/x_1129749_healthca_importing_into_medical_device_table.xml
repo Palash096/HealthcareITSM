@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="06b38ac0975f791053f8b5a6f053afab" extends="sys_import_set_row" label="Importing into Medical Device table" max_length="40" name="x_1129749_healthca_importing_into_medical_device_table" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Device Name" label="Device Name" max_length="40" name="u_device_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Device Status" label="Device Status" max_length="40" name="u_device_status" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Device Type" label="Device Type" max_length="40" name="u_device_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Last Maintenance Date" label="Last Maintenance Date" max_length="40" name="u_last_maintenance_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Training Required" label="Training Required" max_length="40" name="u_training_required" type="string"/>
+    </element>
+</database>

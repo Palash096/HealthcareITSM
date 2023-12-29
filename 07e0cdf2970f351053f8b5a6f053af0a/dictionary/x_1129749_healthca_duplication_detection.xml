@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3d2ba5fa9703751053f8b5a6f053af7a" label="Duplication Detection" max_length="40" name="x_1129749_healthca_duplication_detection" type="collection">
+        <element label="Duplicate Incident" max_length="32" name="duplicate_incident" reference="x_1129749_healthca_incident_management" type="reference"/>
+        <element label="Incident Number" max_length="32" name="incident_number" reference="x_1129749_healthca_incident_management" type="reference"/>
+        <element label="Original Incident" max_length="32" name="original_incident" reference="x_1129749_healthca_incident_management" type="reference"/>
+        <element choice="1" label="Verification Status" max_length="40" name="verification_status" type="choice">
+            <choice/>
+        </element>
+        <index name="index">
+            <element name="duplicate_incident"/>
+        </index>
+        <index name="index2">
+            <element name="incident_number"/>
+        </index>
+        <index name="index3">
+            <element name="original_incident"/>
+        </index>
+    </element>
+</database>

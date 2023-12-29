@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="da09293a9703751053f8b5a6f053afe9" extends="task" label="Problem Management " max_length="40" name="x_1129749_healthca_problem_management" type="collection">
+        <element choice="1" label="Closure Code" max_length="40" name="closure_code" type="choice">
+            <choice/>
+        </element>
+        <element label="Incident Linked" max_length="40" name="incident_linked" reference="x_1129749_healthca_incident_management" type="reference"/>
+        <element label="Preventive Measures" max_length="100" name="preventive_measures" type="string"/>
+        <element label="Problem Title" max_length="40" name="problem_title" type="string"/>
+        <element label="Root Cause Analysis" max_length="100" name="root_cause_analysis" type="string"/>
+    </element>
+</database>

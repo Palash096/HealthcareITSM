@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="85aa6d7a9703751053f8b5a6f053afe2" label="Feedback" max_length="40" name="x_1129749_healthca_feedback" type="collection">
+        <element label="Feedback Comments" max_length="100" name="feedback_comments" type="string"/>
+        <element label="Incident Number" max_length="32" name="incident_number" reference="x_1129749_healthca_incident_management" type="reference"/>
+        <index name="index">
+            <element name="incident_number"/>
+        </index>
+    </element>
+</database>

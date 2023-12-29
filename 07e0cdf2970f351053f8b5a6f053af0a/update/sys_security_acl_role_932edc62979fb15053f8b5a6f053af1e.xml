@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-26 18:17:27</sys_created_on>
+        <sys_id>932edc62979fb15053f8b5a6f053af1e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1129749_healthca_incident_management_2.state.x_1129749_healthca.support team lead</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_security_acl display_value="x_1129749_healthca_incident_management_2.state">ddfcf1799797315053f8b5a6f053afbc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_932edc62979fb15053f8b5a6f053af1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-26 18:17:27</sys_updated_on>
+        <sys_user_role display_value="x_1129749_healthca.support team lead" name="x_1129749_healthca.support team lead">10624932978f351053f8b5a6f053af5e</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

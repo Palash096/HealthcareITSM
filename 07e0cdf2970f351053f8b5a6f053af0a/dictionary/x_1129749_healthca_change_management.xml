@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bd69257a9703751053f8b5a6f053af54" extends="task" label="Change Management" max_length="40" name="x_1129749_healthca_change_management" type="collection">
+        <element label="Change Title" max_length="40" name="change_title" type="string"/>
+        <element choice="1" label="Change Type" max_length="40" name="change_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Emergency Change" max_length="40" name="emergency_change" type="boolean"/>
+        <element label="Implementation Plan" max_length="100" name="implementation_plan" type="string"/>
+        <element label="Incident Linked" max_length="32" name="incident_linked" reference="x_1129749_healthca_incident_management" type="reference"/>
+        <element label="Medical Device Affected" max_length="32" name="medical_device_affected" reference="x_1129749_healthca_medical_devices" type="reference"/>
+        <element choice="1" label="Risk" max_length="40" name="risk" type="choice">
+            <choice/>
+        </element>
+        <element label="Test Plan" max_length="100" name="test_plan" type="string"/>
+    </element>
+</database>

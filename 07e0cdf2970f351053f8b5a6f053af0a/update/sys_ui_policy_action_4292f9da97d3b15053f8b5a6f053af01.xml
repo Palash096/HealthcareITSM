@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>battery_issues_details</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-12-26 05:49:54</sys_created_on>
+        <sys_id>4292f9da97d3b15053f8b5a6f053af01</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>battery_issues_details</sys_name>
+        <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_4292f9da97d3b15053f8b5a6f053af01</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-12-26 06:56:30</sys_updated_on>
+        <table>x_1129749_healthca_incident_management_2</table>
+        <ui_policy display_value="If Device is Laptop then show battery issue details field">c222f1da97d3b15053f8b5a6f053af2b</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
