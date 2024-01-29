@@ -4,15 +4,15 @@
         <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-12-25 06:24:30</sys_created_on>
-        <sys_id>f4717cce9713715053f8b5a6f053affb</sys_id>
+        <sys_created_on>2023-12-29 12:20:03</sys_created_on>
+        <sys_id>d43922d797d3b55053f8b5a6f053afe4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Can We Help You?.Raise an Issue</sys_name>
         <sys_package display_value="HealthcareITSM" source="x_1129749_healthca">07e0cdf2970f351053f8b5a6f053af0a</sys_package>
         <sys_policy/>
         <sys_scope display_value="HealthcareITSM">07e0cdf2970f351053f8b5a6f053af0a</sys_scope>
-        <sys_update_name>sc_cat_item_category_f4717cce9713715053f8b5a6f053affb</sys_update_name>
+        <sys_update_name>sc_cat_item_category_d43922d797d3b55053f8b5a6f053afe4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-12-25 06:24:30</sys_updated_on>
+        <sys_updated_on>2023-12-29 12:20:03</sys_updated_on>
     </sc_cat_item_category>
 </record_update>
